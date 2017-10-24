@@ -1,4 +1,8 @@
-
+/*!
+ * Start Bootstrap - Createive v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
 body,
 html {
   width: 100%;
@@ -159,8 +163,7 @@ header.masthead {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0;
-      text-transform: uppercase;
-      color:rgba(10, 53, 179, 0.74); }
+      text-transform: uppercase; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -189,8 +192,7 @@ header.masthead {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
-            margin-left: auto;
-            color:cornsilk; } }
+            margin-left: auto; } }
 
 .service-box {
   max-width: 400px;
@@ -340,7 +342,7 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
-  li{
+li{
     list-style: none;}
   
  li:hover .fa-whatsapp{
