@@ -1142,7 +1142,9 @@ $.magnificPopup.registerModule('image', {
 					'</figure>'+
 				'</div>',
 		cursor: 'mfp-zoom-out-cur',
-		titleSrc: 'title',
+		titleSrc: function(item) {
+              return item.el.attr('title') + '<small> Cerveza artesanal Villa Alemana </small>';
+            },
 		verticalFit: true,
 		tError: '<a href="%url%">The image</a> could not be loaded.'
 	},
